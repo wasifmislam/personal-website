@@ -93,7 +93,7 @@ section{
     }
 .bottom-section{
     text-align: center;
-    background-color: deeppink;
+    background-image: linear-gradient(45deg, rgb(240, 182, 211), rgb(255, 1, 137));
     height: 150px;
     color: white;
     padding: 10px 20px;
@@ -101,6 +101,7 @@ section{
     border: 5px solid deeppink;
     border-radius: 20px;
     margin: 200px;
+    
 
 
 }
@@ -108,7 +109,13 @@ footer p{
     text-align: center;
     font-size: 15px;
 }
-.footer-image{
+.footer-image{background-image: url("image/footer-bg.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.client-area{
     background-image: url("image/footer-bg.png");
     background-position: left;
     background-repeat: no-repeat;
